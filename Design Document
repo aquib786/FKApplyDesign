@@ -1,0 +1,107 @@
+					DESIGN DOCUMENT TEMPLATE
+__________________________________________________________________________________________________________	
+
+
+
+__________________________________________________________________________________________________________	
+					PROJECT GAME DESIGN
+__________________________________________________________________________________________________________	
+
+
+NOTE: 
+
+Design Document Must Contain Following Things:
+	Describe Each Feature With Status, Design Decision/Choices and Test Implementation
+	Feature Implementation 	: Replaced <STATUS> with - Completed Or NotCompleted Or PartiallyCompleted
+	Design Decision 	: Done along with Detailed Description
+	Test Implementation    	: All Test Cases Covered For Each Feature
+
+Add Online Google Sheet URLs, Branch and Last Update	
+	Code Branch 	 : Fill Which Branch Should I See Your Code If Not Development Branch?	
+	Last Code Commit : When You Committed Your Last Changes In Above Mentioned Branch?
+
+
+SECTION  I: First Iteration Game Project Design
+	[Till Phase III or Phase IV Submitted Upto 29th January, 2020]
+
+PART I: Design Diagrams
+	Sequence Diagrams
+	Class Diagrams
+	Dependency Diagrams
+
+PART II : Common Design/Choices and Conventions/Assumptions and Detailed Descriptions etc.
+
+PART III : Feature Specific Design/Choices and Conventions/Assumptions 
+
+GameDesign v2.0	- Requirement I
+	Completed - 1. Tic-Tac-Toe consists of 3x3 Square Cells
+		Done with a interface which contain move() function both for human and machine
+	Completed - 2. Game Between Two Humans
+		Both players play optimally
+	Completed - 3. Game Between Human and Machine
+		Human play optimally and Machine play randomly
+	Completed - 4. Winning Criteria - 3 Cells in Row/Column/Diagonal are in Same State.
+		Implemented a separate class to check the state
+	Completed - 5. Announce Winning Player
+		Done in a checker class
+
+GameDesign v2.0	- Requirement II
+	Completed - 6. Enhanced Tic-Tac-Toe Game Consist of 9x9 Squares...
+		Playing 3*3 game for each cell
+	Completed - 7. Enhanced Tic-Tac-Toe will continue to expand in depth levels...
+		calling recursevily to play 3*3
+	Partially Completed - 8. Extend Game to 4x4 Board
+		Checker condition are not checked
+	Completed - 9. Human Player is Biased...
+		Can undo the move
+	Completed - 10. Storing and Retrieving Game State
+		one step back
+	Completed - 11. Store Players Game Statistics: Leaderboard
+		Number of 3*3 board winning criteria
+
+
+	
+SECTION II: Second Iteration[Refactoring/Redesign] Game Project Design 
+	[Till Phase III or Phase IV Submitted Upto 03rd February, 2020]
+
+PART I : Common Design/Choices, Conventions and Assumptions
+	Sequence Diagrams
+	Class Diagrams
+	Dependency Diagrams
+
+PART II : Common Design/Choices and Conventions/Assumptions and Detailed Descriptions etc.
+
+PART III: Feature Specific Design/Choices, Conventions and Assumptions	
+
+GameDesign v2.0	- Requirement I
+	Completed - 1. Tic-Tac-Toe consists of 3x3 Square Cells
+		
+	Completed - 2. Game Between Two Humans
+		
+	Completed - 3. Game Between Human and Machine
+		
+	Completed - 4. Winning Criteria - 3 Cells in Row/Column/Diagonal are in Same State.
+		
+	Completed - 5. Announce Winning Player
+		
+
+GameDesign v2.0	- Requirement II
+	Completed - 6. Enhanced Tic-Tac-Toe Game Consist of 9x9 Squares...
+		
+	Completed - 7. Enhanced Tic-Tac-Toe will continue to expand in depth levels...
+		
+	Not completed - 8. Extend Game to 4x4 Board
+		
+	Completed - 9. Human Player is Biased...
+		
+	Completed - 10. Storing and Retrieving Game State
+		
+	Completed - 11. Store Players Game Statistics: Leaderboard
+		
+
+SECTION III: GameDesign Project Feature and Test Cases Implementation Status and Description
+
+
+SECTION III: How to Run/Test Your Code?
+	to run the code , instruction are given in README.md
+	
